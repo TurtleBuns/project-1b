@@ -1,0 +1,413 @@
+
+/* Global */
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: inherit;
+    color:inherit;
+    list-style: none;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('font/playfairdisplay-regular-webfont.eot');
+    src: url('font/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('font/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('font/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('font/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('font/playfairdisplay-italic-webfont.eot');
+    src: url('font/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('font/playfairdisplay-italic-webfont.woff') format('woff'),
+         url('font/playfairdisplay-italic-webfont.ttf') format('truetype'),
+         url('font/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('font/raleway-light-webfont.eot');
+    src: url('font/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/raleway-light-webfont.woff2') format('woff2'),
+         url('font/raleway-light-webfont.woff') format('woff'),
+         url('font/raleway-light-webfont.ttf') format('truetype'),
+         url('font/raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+body{
+    font-family: 'ralewaylight';
+    color: #2d2d2d;
+}
+h1, h2, h3 ,h4{
+    font-family: 'playfair_displayregular';
+}
+
+em{
+    font-weight: 100;
+    font-family: 'playfair_displayitalic';
+}
+
+
+/* Header*/
+
+
+header{
+    background-color: #ffffff;
+    margin-top: 0px;
+    display: flex;
+    height: 15%;
+    min-width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+header li{
+    padding: 15px; 
+}
+header ul{
+    display: flex;
+    min-width: 10%;
+    padding: 0px;
+    margin: 0px 40px 0px 0px;
+}
+#logo{
+    padding-left: 2%;
+    height: 100px;
+    max-width:15%;
+}
+#cart{
+    padding-right: 2%;
+    height: 70px;
+    max-width: 10%;
+    order:1;
+}
+
+
+/* Hero */
+
+#hero{
+    background-image: url(assets/img/banner-girl.png),url(assets/img/flower-bkgd.jpg);
+    background-repeat: no-repeat ,no-repeat;
+    background-position: center top, bottom center;
+    padding: 20% 0px;
+}
+.hero{
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    text-align: center;
+}
+h1.hero{
+    font-size:  400%;
+}
+h4.hero{
+    font-size: 25px;
+    font-family: 'ralewaylight';
+}
+ 
+
+
+
+/* subtitle */
+
+
+.description{
+    text-align: center;
+   padding: 120px 20%;
+}
+ .description p{
+    color: ;
+     font-size: 27px;
+     margin-top: 20px;
+}
+.subtitle {
+    font-size: 50px;
+    color: ;
+    text-align: center
+}
+
+.subtitle.white{
+    color: #ffffff;
+    padding-top: 50px
+}
+
+
+
+/* Categories */
+/*
+.category{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 900;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    }
+
+#top{
+    display: flex;
+    padding-bottom: 7px;
+}
+#bot{
+    display: flex;
+}
+.category.big{
+    width: 50%;
+}
+.category.small{
+    width:25% ;
+}
+.category.big.men{
+    background-image: url(assets/img/mens-category.jpg);
+    margin-right: 7px;
+}
+.category.big.women{
+    background-image: url(assets/img/womens-category.jpg);
+    margin-left: 7px;
+    padding-right: 7px;
+}
+.category.trends{
+    background-image: url(assets/img/trends-category.jpg);
+    margin-right: 7px;
+
+}
+.category.glasses{
+    background-image: url(assets/img/glasses-category.jpg);
+     margin-left: 0px;
+    order: 1;
+}
+.category.sale{
+    background-image: url(assets/img/sale-category.jpg);
+    margin-right: 0px;
+}
+.category.bags{
+    background-image: url(assets/img/bags-category.jpg);
+    margin-left: 7px;
+}
+*/
+@media only screen and (max-width: 600px){
+.category{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 900;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    }
+
+#top{
+    display: ;
+    padding-bottom: 0px;
+}
+#bot{
+    display: ;
+}
+    
+#top-small{
+    display: flex;
+}
+#bot-small{
+    display: flex
+}
+.category.big{
+    width: 100%;
+}
+.category.small{
+    width:50% ;
+}
+.category.big.men{
+    background-image: url(assets/img/mens-category.jpg);
+    margin-right: 0px;
+}
+.category.big.women{
+    background-image: url(assets/img/womens-category.jpg);
+    margin-left: 0px;
+    padding-right: 0px;
+}
+.category.trends{
+    background-image: url(assets/img/trends-category.jpg);
+    margin-right: 0px;
+
+}
+.category.glasses{
+    background-image: url(assets/img/glasses-category.jpg);
+     margin-left: 0px;
+    order: ;
+}
+.category.sale{
+    background-image: url(assets/img/sale-category.jpg);
+    margin-right: 0px;
+}
+.category.bags{
+    background-image: url(assets/img/bags-category.jpg);
+    margin-left: 0px;
+}
+}
+
+/* Selection */
+
+.selection h2{
+    padding-right: 5px;
+    text-align: center;
+    min-width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+#products{
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center; 
+    width: 100%;
+    margin-bottom: 100px;
+    
+}
+.product h4{
+    font-size:1.4rem;
+    font-weight: 300;
+    color: #e2574c;
+}
+.product p{
+    font-weight: 900;
+    font-size: .8rem;
+    color: #969696;
+}
+
+.product{
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.selection img{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    align-items: center;
+}
+
+
+/* form */
+
+#updates{
+    text-align: center;
+    background-image: url(assets/img/wave-bkgd.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 5%
+}
+#updates p{
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    width: 33%;
+    border-radius: 20px;
+    margin: 0px 35%;
+}
+.email{
+    border:0;
+    float: left;
+    font-size: 16px;
+    border-radius: 20px;
+    min-width: 90px;
+    width: 70%;
+    padding: 10px 10px 10px 20px;
+}
+.submit{
+    border:0;
+    font-size: 1em;
+    background-color: lightcoral;
+    color: #ffffff;
+    border-radius: 20px 20px;
+    padding:10px 10px 10px 10px;
+    margin: 4px 4px 4px 4px;
+}
+
+
+/* footer */
+
+.social{
+    align-self: flex-end;
+    justify-content: flex-end;
+    padding: 15px 50px 0px 0px;
+}
+#loc{
+    color: #969696;
+}
+footer p{
+    display: flex;
+    align-content: space-around;
+    flex-direction:column;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align:left;
+    font-weight: 900;
+    color:#ffffff;
+    background-color: #242424;
+    height: 200px;
+    margin-top: 1%;
+    padding: 5%; 
+}
+#info{
+    text-decoration: underline;
+}
+.social a::before{
+    font-family: fontawesome;
+    font-size: .8rem;
+    padding-right: 15px;
+}
+.social.fb a::before{
+    content:"\f09a"
+}
+.social.tw a::before{
+    content:"\f099"
+}
+.social.in a::before{
+    content:"\f16d"
+}
+.social.pi a::before{
+    content:"\f0d2"
+}
+.social.g a::before{
+    content:"\f1a0"
+}
+
